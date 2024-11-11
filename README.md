@@ -19,13 +19,13 @@ Fetch details of a single item from the public API and display it on a separate 
 
 ## Requirements
 
-1. Project Setup
+###  Project Setup
 
 Use Next.js to create the application.
 Structure your code with components and pages to ensure modularity.
 Use any public API of your choice (e.g. [REST Countries](https://restcountries.com/v3.1/all) for the data fetching tasks.
 
-2. Tasks
+### Tasks
 
 #### Login Page
 
@@ -49,15 +49,11 @@ Create a Login page (/login) with the following fields:
 - Fetch the item's details using the ID in the URL and display comprehensive information about that item.
 
 
-3. Additional Instructions
+### Additional Instructions
 
 - You can use CSS, Sass, or a CSS-in-JS solution like styled-components. 
 - Feel free to use UI libraries like Tailwind CSS or Material UI if preferred.
 - Data Fetching: Use Next.js’s built-in data fetching methods (getStaticProps, getServerSideProps, or getInitialProps) as appropriate.
-
-#### Routing: 
-
-- Use Next.js’s routing for page navigation.
 
 ## Evaluation Criteria
 
