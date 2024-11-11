@@ -12,7 +12,7 @@ A main dashboard page to display an overview or list of items fetched from a pub
 
 #### Login Page: 
 A login page with basic form elements for a username and password (functionality doesn't need to be implemented).
-Fetch and Display Data: Fetch data from a public API and display it in a list on the dashboard.
+Redirect users to the dashboard upon login.
 
 #### Detailed View: 
 Fetch details of a single item from the public API and display it on a separate page.
