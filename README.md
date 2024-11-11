@@ -30,31 +30,34 @@ Use any public API of your choice (e.g. [REST Countries](https://restcountries.c
 #### Login Page
 
 Create a Login page (/login) with the following fields:
-Username: Text input
-Password: Password input
-Submit button: Console log the entered values on submit (no backend functionality is required).
-Basic validation for required fields is appreciated.
-Dashboard Page
-Create a Dashboard page (/dashboard) where the main list of items will be displayed.
-Use the public API to fetch a list of items (e.g., posts, countries, users).
-Display essential information from each item (e.g., title, name, or summary).
-Include pagination or infinite scroll if the data set is large (optional).
+- Username: Text input
+- Password: Password input
+- Submit button: Console log the entered values on submit (no backend functionality is required).
+- Basic validation for required fields is appreciated.
+
+#### Dashboard Page
+
+- Create a Dashboard page (/dashboard) where the main list of items will be displayed.
+- Use the public API to fetch a list of items (e.g., posts, countries, users).
+- Display essential information from each item (e.g., title, name, or summary).
+- Include pagination or infinite scroll if the data set is large (optional).
 
 #### Detailed View
 
-When an item on the dashboard is clicked, navigate to a detailed view page for that specific item.
-Create a dynamic route for this page (e.g., /dashboard/[id]).
-Fetch the item's details using the ID in the URL and display comprehensive information about that item.
+- When an item on the dashboard is clicked, navigate to a detailed view page for that specific item.
+- Create a dynamic route for this page (e.g., /dashboard/[id]).
+- Fetch the item's details using the ID in the URL and display comprehensive information about that item.
 
 
 3. Additional Instructions
 
-#### Styling: 
-You can use CSS, Sass, or a CSS-in-JS solution like styled-components. Feel free to use UI libraries like Tailwind CSS or Material UI if preferred.
-Data Fetching: Use Next.js’s built-in data fetching methods (getStaticProps, getServerSideProps, or getInitialProps) as appropriate.
+- You can use CSS, Sass, or a CSS-in-JS solution like styled-components. 
+- Feel free to use UI libraries like Tailwind CSS or Material UI if preferred.
+- Data Fetching: Use Next.js’s built-in data fetching methods (getStaticProps, getServerSideProps, or getInitialProps) as appropriate.
 
 #### Routing: 
-Use Next.js’s routing for page navigation.
+
+- Use Next.js’s routing for page navigation.
 
 ## Evaluation Criteria
 
@@ -64,9 +67,9 @@ Your submission will be evaluated based on:
 - Proper use of Next.js features (data fetching, routing, etc.).
 - Clean and responsive UI/UX design.
 - Handling of API responses and error handling.
-- Attention to detail in implementing the requirements.
+- Attention to detail when implementing the requirements.
 
 ## Submission
 
 - Ensure all code is committed to your repository.
-- Submit a link to your repository along with any additional notes or documentation if necessary.
+- Submit a link to your repository and any additional notes or documentation if necessary.
